@@ -9,8 +9,11 @@
   <form>
     <button type="button" name="button" id="clique-moi" >Clique-moi !</button>
   </form>
+  <div></div>
   <script>
-
+    $('#clique-moi').click(function(){
+      $('div').text('Bien joué !');
+    });
   </script>
 </body>
 </html>
